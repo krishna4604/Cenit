@@ -1,0 +1,43 @@
+:root{
+  --primary:#0d6efd;
+  --muted:#6c757d;
+  --bg:#f8f9fa;
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+body{font-family:inherit;line-height:1.6;background:var(--bg);color:#222}
+
+/* Navbar brand */
+.navbar .brand-name{font-weight:600;color:#111}
+.logo{height:48px;width:48px;object-fit:contain;border-radius:6px}
+
+/* HERO */
+.hero-section{
+  background: linear-gradient(0deg, rgba(13,110,253,0.06), rgba(13,110,253,0.02));
+  padding:90px 0;
+}
+.hero-section .lead{color:rgba(0,0,0,0.7)}
+
+/* Cards */
+.project-card img{height:260px; object-fit:cover}
+.service-card{border:0;box-shadow:0 6px 18px rgba(0,0,0,0.05)}
+
+/* Stats */
+#stats{background:linear-gradient(90deg, rgba(13,110,253,0.95), rgba(13,110,253,0.85));}
+#stats .counter{font-size:2.2rem;font-weight:700;margin:0}
+#stats p{margin:0}
+
+/* Contact */
+.map-responsive iframe{border-radius:8px}
+
+/* Footer */
+footer{font-size:0.95rem}
+
+/* Buttons */
+.btn-outline-light{border-color:rgba(255,255,255,0.85);color:#fff}
+
+/* Responsive tweaks */
+@media (max-width:767px){
+  .hero-section{padding:50px 0;}
+  .logo{height:36px;width:36px}
+}
