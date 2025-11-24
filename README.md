@@ -1,2 +1,2 @@
 # Cenit 
-A Static Website built with the hep of HTML, CSS and Javascript 
+A Static Website built with HTML, CSS and Javascript 
